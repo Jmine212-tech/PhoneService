@@ -1,12 +1,11 @@
 import "./input.css"
 import { Routes, Route } from "react-router-dom"
 
+import { repairLists } from "./config/data"
 import DataContext from "./context/DataContext"
 
-import RepairLists from "./components/RepairLists"
-
+import  ProfilePage from "./pages/ProfilePage"
 import HomePage from "./pages/HomePage"
-import { repairLists } from "./config/data"
 
 const App = () => {
   return (
@@ -14,6 +13,7 @@ const App = () => {
       <DataContext.Provider value={repairLists}>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/profilePage" element={<ProfilePage />} />
         </Routes>
       </DataContext.Provider>
     </div>

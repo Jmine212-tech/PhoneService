@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import toast from "react-hot-toast"
-import { useLinkClickHandler } from 'react-router-dom'
+
+// import icon here
+import { LockIcon, PhoneIcon, SmartphoneIcon, HandCoins, CheckIcon, CircleOffIcon } from "lucide-react"
 
 const RepairLists = ({ repairLists }) => {
 
@@ -56,7 +58,7 @@ const RepairLists = ({ repairLists }) => {
             <section
                 className='flex p-2 gap-5'>
                 <h1
-                className='text-2xl font-bold'>List</h1>
+                    className='text-2xl font-bold'>List</h1>
                 <label>
                     <input type="text"
                         value={search}
@@ -144,26 +146,57 @@ const RepairLists = ({ repairLists }) => {
                 ${UserR.status === true ? `bg-green-900` : `bg-red-900`}`}></div>
 
                     <section
-                        className='absolute top-0 left-0 z-99 p-4'>
+                        className='absolute top-0 left-0 z-99 p-4 w-full h-full'>
                         {/* close btn */}
                         <button
                             onClick={() => { setOpDetail(false) }}
                             className='btn bg-black inset-shadow-xs text-white inset-shadow-indigo-400 shadow-xs shadow-black
                     rounded-2xl'>Close</button>
-
+                        {/* Detail text */}
                         <main
-                            className='text-white text-lg'>
+                            className='text-stone-200 text-lg flex flex-col justify-center items-center gap-5'>
+                            {/* id */}
+                            <div className='absolute top-2 right-4 text-2xl font-bold italic border p-2 rounded-box
+                            shadow-md shadow-black inset-shadow-xs inset-shadow-black'>
+                                <p>ID: {UserR.id} </p>
+                            </div>
                             {/* name */}
-                            <span>
-                                <h1>name: {UserR.name} </h1>
-                            </span>
-                            <p>model: {UserR.model} </p>
-                            <p>Password: {UserR.pw} </p>
-                            <p>phone: {UserR.phone} </p>
+                            <div
+                                className='flex items-center'>
+                                <h1
+                                    className="text-4xl text-center font-bold italic p-2"
+                                    style={{ 'textShadow': '-2px 0 black, 2px 0 black, 0 -2px black, 0 2px black' }}>{UserR.name} </h1>
+                                {UserR.status === true ? <CheckIcon /> : <CircleOffIcon />}
+                            </div>
+                            {/* img */}
+                            <div
+                                className='w-30 h-30 border-2 rounded-box'>
+                                {/* img bg */}
+                                <span
+                                    className='w-full h-full bg-stone-500 opacity-70'></span>
+                            </div>
+                            {/* model */}
+                            <p
+                                className='flex items-center p-2 gap-2'>
+                                <SmartphoneIcon /> <span className='text-2xl font-semibold'>{UserR.model} </span>
+                            </p>
+                            {/* Password */}
+                            <p
+                                className='flex items-center gap-2'>
+                                <span><LockIcon /> </span> {UserR.pw}
+                            </p>
+                            {/* Phone number */}
+                            <p
+                                className='flex items-center gap-2'>
+                                <span><PhoneIcon /> </span> {UserR.phone}
+                            </p>
+                            {/* Fault */}
                             <p>Fault: {UserR.fault} </p>
-                            <p>Price: {UserR.price} </p>
-                            <p>Status: {UserR.status} </p>
-                            <p>ID: {UserR.id} </p>
+                            {/* Price */}
+                            <p
+                                className='flex items-center gap-2'>
+                                <span><HandCoins /> </span> {UserR.price}
+                            </p>
                         </main>
                     </section>
                 </article>
@@ -173,6 +206,7 @@ const RepairLists = ({ repairLists }) => {
                 </div>}
         </div>
     )
+    
 }
 
 export default RepairLists

@@ -25,7 +25,7 @@ const HomePage = () => {
         <h1
           className='font-bold text-lg'
           style={{ "textShadow": "-1px 0 black, 1px 0 black, 0 -1px black, 0 1px black" }}>
-          <span className='text-stone-300'>Phone-</span>
+          <span className='text-stone-300'>Phone </span>
           <span
             className='italic text-orange-500'>Service</span>
         </h1>
@@ -47,7 +47,8 @@ const HomePage = () => {
           className={`sm:w-10 h-80 bg-black rounded-2xl pt-4 pb-4 flex flex-col items-center gap-6 relative
         ${opMenu === true ? ` ` : `hidden`}`}>
           {/* navigate to profile page */}
-          <Link>
+          <Link
+          to={"/profilePage"}>
             <UserIcon />
           </Link>
           {/* navigate to edit page */}
@@ -70,8 +71,15 @@ const HomePage = () => {
       </main>
 
       <footer
-        className=''>
-
+        className='sm:w-80 h-80 bg-stone-800 mt-4 '>
+          {/* logo */}
+          <h1
+          className='text-4xl text-center font-bold p-2'>
+            <span className='text-stone-300'>Just</span>
+            <span className='text-white'>'</span>
+            <span className="text-orange-500 italic"
+            style={{"textShadow": "-1px 0 white, 1px 0 white, 0 1px white, 0 -1px white"}}>Creative</span>
+          </h1>
       </footer>
     </div>
   )

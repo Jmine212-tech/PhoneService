@@ -1,0 +1,1 @@
+export const mdBar = "w-3/4 h-15 bg-base-300 rounded-tl-box rounded-tr-box pl-4 pr-4"
