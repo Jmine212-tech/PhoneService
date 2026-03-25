@@ -1,0 +1,37 @@
+[
+  { "name": "User 1", "model": "iPhone 11", "password": "1111", "phone": "09100000001", "fault": "LCD", "price": 80000, "status": false, "note": "Screen cracked", "createdAt": "2026-03-25T09:00:00Z" },
+  { "name": "User 2", "model": "Samsung A51", "password": "2222", "phone": "09100000002", "fault": "Battery", "price": 50000, "status": true, "note": "Battery replaced", "createdAt": "2026-03-25T09:10:00Z" },
+  { "name": "User 3", "model": "Xiaomi Redmi Note 9", "password": "3333", "phone": "09100000003", "fault": "Charging Port", "price": 30000, "status": false, "note": "Loose port", "createdAt": "2026-03-25T09:20:00Z" },
+  { "name": "User 4", "model": "iPhone X", "password": "4444", "phone": "09100000004", "fault": "Face ID", "price": 120000, "status": false, "note": "Face ID not working", "createdAt": "2026-03-25T09:30:00Z" },
+  { "name": "User 5", "model": "Oppo F11", "password": "5555", "phone": "09100000005", "fault": "Speaker", "price": 20000, "status": true, "note": "Speaker replaced", "createdAt": "2026-03-25T09:40:00Z" },
+
+  { "name": "User 6", "model": "Vivo Y20", "password": "6666", "phone": "09100000006", "fault": "Camera", "price": 40000, "status": false, "note": "Rear camera blur", "createdAt": "2026-03-25T10:00:00Z" },
+  { "name": "User 7", "model": "Huawei P30", "password": "7777", "phone": "09100000007", "fault": "LCD", "price": 90000, "status": true, "note": "Display replaced", "createdAt": "2026-03-25T10:10:00Z" },
+  { "name": "User 8", "model": "iPhone 12", "password": "8888", "phone": "09100000008", "fault": "Battery", "price": 100000, "status": false, "note": "Battery draining", "createdAt": "2026-03-25T10:20:00Z" },
+  { "name": "User 9", "model": "Samsung S10", "password": "9999", "phone": "09100000009", "fault": "Power Button", "price": 25000, "status": true, "note": "Button fixed", "createdAt": "2026-03-25T10:30:00Z" },
+  { "name": "User 10", "model": "Realme 6", "password": "0000", "phone": "09100000010", "fault": "Charging Port", "price": 30000, "status": false, "note": "Not charging", "createdAt": "2026-03-25T10:40:00Z" },
+
+  { "name": "User 11", "model": "iPhone 13", "password": "1112", "phone": "09100000011", "fault": "LCD", "price": 150000, "status": true, "note": "Screen replaced", "createdAt": "2026-03-25T11:00:00Z" },
+  { "name": "User 12", "model": "Samsung A72", "password": "1212", "phone": "09100000012", "fault": "Battery", "price": 60000, "status": false, "note": "Battery issue", "createdAt": "2026-03-25T11:10:00Z" },
+  { "name": "User 13", "model": "Oppo Reno 5", "password": "1313", "phone": "09100000013", "fault": "Camera", "price": 50000, "status": true, "note": "Camera replaced", "createdAt": "2026-03-25T11:20:00Z" },
+  { "name": "User 14", "model": "Vivo V21", "password": "1414", "phone": "09100000014", "fault": "LCD", "price": 85000, "status": false, "note": "Cracked screen", "createdAt": "2026-03-25T11:30:00Z" },
+  { "name": "User 15", "model": "Xiaomi Mi 10", "password": "1515", "phone": "09100000015", "fault": "Speaker", "price": 20000, "status": true, "note": "Speaker replaced", "createdAt": "2026-03-25T11:40:00Z" },
+
+  { "name": "User 16", "model": "iPhone 8", "password": "1616", "phone": "09100000016", "fault": "Battery", "price": 40000, "status": false, "note": "Battery weak", "createdAt": "2026-03-25T12:00:00Z" },
+  { "name": "User 17", "model": "Samsung M31", "password": "1717", "phone": "09100000017", "fault": "LCD", "price": 70000, "status": true, "note": "LCD fixed", "createdAt": "2026-03-25T12:10:00Z" },
+  { "name": "User 18", "model": "Realme 7", "password": "1818", "phone": "09100000018", "fault": "Charging Port", "price": 30000, "status": false, "note": "Charging issue", "createdAt": "2026-03-25T12:20:00Z" },
+  { "name": "User 19", "model": "Huawei Nova 5", "password": "1919", "phone": "09100000019", "fault": "Camera", "price": 45000, "status": true, "note": "Camera fixed", "createdAt": "2026-03-25T12:30:00Z" },
+  { "name": "User 20", "model": "Oppo A9", "password": "2020", "phone": "09100000020", "fault": "Speaker", "price": 20000, "status": false, "note": "No sound", "createdAt": "2026-03-25T12:40:00Z" },
+
+  { "name": "User 21", "model": "iPhone XR", "password": "2121", "phone": "09100000021", "fault": "LCD", "price": 90000, "status": true, "note": "Screen replaced", "createdAt": "2026-03-25T13:00:00Z" },
+  { "name": "User 22", "model": "Samsung S20", "password": "2223", "phone": "09100000022", "fault": "Battery", "price": 70000, "status": false, "note": "Battery drain", "createdAt": "2026-03-25T13:10:00Z" },
+  { "name": "User 23", "model": "Vivo Y12", "password": "2323", "phone": "09100000023", "fault": "Charging Port", "price": 25000, "status": true, "note": "Port fixed", "createdAt": "2026-03-25T13:20:00Z" },
+  { "name": "User 24", "model": "Realme C3", "password": "2424", "phone": "09100000024", "fault": "LCD", "price": 60000, "status": false, "note": "Broken display", "createdAt": "2026-03-25T13:30:00Z" },
+  { "name": "User 25", "model": "Oppo F9", "password": "2525", "phone": "09100000025", "fault": "Camera", "price": 40000, "status": true, "note": "Camera fixed", "createdAt": "2026-03-25T13:40:00Z" },
+
+  { "name": "User 26", "model": "iPhone 7", "password": "2626", "phone": "09100000026", "fault": "Speaker", "price": 20000, "status": false, "note": "Low sound", "createdAt": "2026-03-25T14:00:00Z" },
+  { "name": "User 27", "model": "Samsung A30", "password": "2727", "phone": "09100000027", "fault": "Battery", "price": 45000, "status": true, "note": "Battery replaced", "createdAt": "2026-03-25T14:10:00Z" },
+  { "name": "User 28", "model": "Xiaomi Note 8", "password": "2828", "phone": "09100000028", "fault": "Charging Port", "price": 30000, "status": false, "note": "Not charging", "createdAt": "2026-03-25T14:20:00Z" },
+  { "name": "User 29", "model": "Vivo Y15", "password": "2929", "phone": "09100000029", "fault": "LCD", "price": 70000, "status": true, "note": "Screen replaced", "createdAt": "2026-03-25T14:30:00Z" },
+  { "name": "User 30", "model": "Oppo A5", "password": "3030", "phone": "09100000030", "fault": "Camera", "price": 35000, "status": false, "note": "Blur issue", "createdAt": "2026-03-25T14:40:00Z" }
+]

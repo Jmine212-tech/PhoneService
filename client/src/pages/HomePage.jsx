@@ -1,8 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
+// icon
+import {PencilIcon} from "lucide-react"
 
 import IphoneLogo from "../assets/iphoneLogo.jpg"
 import AndroidLogo from "../assets/androidLogo.png"
-import { Link } from 'react-router-dom'
 
 const HomePage = () => {
 
@@ -22,9 +25,9 @@ const HomePage = () => {
             className='Intro-bg h-40 absolute top-0 left-0 -z-10'></div>
 
           <section
-            className='Intro-text text-center'>
-            <h1 className='text-7xl font-serif'>Welcome</h1>
-            <p className='text-3xl inline italic bg-black p-2 pl-5 pr-5 rounded-tl-2xl rounded-br-2xl font-bold'>ICrazy</p>
+            className='Intro-text text-center font-serif'>
+            <h1 className='text-4xl'>Welcome</h1>
+            <p className='text-3xl font-semibold p-2 bg-black rounded-tl-full rounded-br-full ml-4 mr-4'>ICrazy</p>
           </section>
 
           <section>
@@ -146,7 +149,6 @@ const HomePage = () => {
                 style={{
                   "backgroundImage": `url(${AndroidLogo})`,
                   "backgroundSize": "cover",
-
                   "backgroundPosition": "center"
                 }}></div>
             </Link>
@@ -177,9 +179,18 @@ const HomePage = () => {
           <p>Thank you for choosing our service!</p>
         </section>
       </main>
+      
+      {/* admin */}
+      <div
+      className='AdminOnly fixed bottom-10 right-5 z-99'>
+        <Link
+        to={"/AdminPage"}
+        className='w-15 h-15 rounded-full flex items-center 
+        justify-center text-black border shadow-lg shadow-black inset-shadow-sm inset-shadow-white'> <PencilIcon /> </Link>
+      </div>
 
       <footer
-        className='w-full bg-linear-to-r from-orange-500 to-amber-500 rounded-t-4xl pt-4 border-t-3 border-t-black'>
+        className='w-full bg-linear-to-r from-orange-500 to-amber-800 rounded-t-4xl pt-4 border-t-3 border-t-black'>
         <div
           className='w-full min-h-40 bg-base-300 rounded-t-4xl border-t-2 flex flex-col items-center'>
           <article
