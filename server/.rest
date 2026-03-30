@@ -1,0 +1,34 @@
+Get http://localhost:3000/api/repairList/
+
+### Create repair list
+POST http://localhost:3000/api/repairList/create
+Content-Type: application/json
+
+{ 
+    "name": "Benjamin", 
+    "model": "iphone 12", 
+    "password": "pw-000014", 
+    "phone": "09000014", 
+    "fault": "Back glass", 
+    "price": 420, 
+    "note": "" 
+}
+
+### update repair list
+PUT http://localhost:3000/api/repairList/update/69c38965b11f72fbad9979cc
+Content-Type: application/json
+
+{
+    "name": "sai",
+    "model": "iphone 12",
+    "password": "password-01",
+    "phone": "09000001",
+    "fault": "LCD",
+    "price": 320,
+    "status": true,
+    "note": "first update"
+}
+
+### delete repair list
+DELETE http://localhost:3000/api/repairList/delete/69c38965b11f72fbad9979cc
+Content-Type: application/json
