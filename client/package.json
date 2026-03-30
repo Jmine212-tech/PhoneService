@@ -12,10 +12,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
     "axios": "^1.13.5",
-<<<<<<< HEAD
     "cally": "^0.9.2",
-=======
->>>>>>> 5230011df2aa1c7b17967c7d6f23f989bbd069c9
     "chart.js": "^4.5.1",
     "lucide-react": "^0.562.0",
     "react": "^19.2.0",
