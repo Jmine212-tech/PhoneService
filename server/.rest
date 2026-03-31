@@ -1,4 +1,4 @@
-Get http://localhost:3000/api/repairList/
+Get http://localhost:3000/api/repairList
 
 ### Create repair list
 POST http://localhost:3000/api/repairList/create

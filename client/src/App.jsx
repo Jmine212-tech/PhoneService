@@ -6,7 +6,7 @@ import HomePage from "./pages/HomePage"
 import LoginPage from "./pages/LoginPage"
 import IntroPage from "./pages/IntroPage"
 import AdminPage from "./pages/admin/adminPage"
-import Dashboard from "./pages/admin/Dashboard"
+import Dashboard from "./pages/admin/DashboardPage"
 import RepairListPage from "./pages/admin/repairListPage"
 
 const App = () => {

@@ -8,7 +8,6 @@ import authRoute from "./routers/authRoute.js";
 import repairListRoute from "./routers/repairListRoute.js";
 
 dotenv.config();
-
 const app = express();
 
 app.use(json());
